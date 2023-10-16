@@ -1,9 +1,24 @@
-# ara3d-dev
+# Ara 3D Dev 
 
 Main development repository for all public Ara 3D projects. 
 Synchronizes development across multiple repositories. 
 
-## Submodule
+## Helper Scripts 
+
+The helper script `bin\gd.bat <message>` combines multiple git commands
+allowing you to conveniently push changes to a subrepository
+that you are working on.  
+
+1. Stage all work in current repository (assuming you are in a submodule)
+2. Commit the work using the commit message
+3. Push to the remote repository
+4. Change directory to this repository root
+5. Stage, commit, and push the changes to this repository
+6. Restore the directory 
+
+It is recommended to add the `bin` folder of this repository to your path. 
+
+## Submodules
 
 This development repository tracks multiple separate repositories as submodules. 
 After you first clone this repo, you must retrieve all submodules. 
