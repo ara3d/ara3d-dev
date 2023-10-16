@@ -5,16 +5,14 @@ Synchronizes development across multiple repositories.
 
 ## Helper Scripts 
 
-The helper script `bin\gd.bat <message>` combines multiple git commands
-allowing you to conveniently push changes to a subrepository
-that you are working on.  
+The helper script `bin\gap.bat <message>` combines multiple git commands
+allowing you to add, commit, and push in one command. 
+The mnemonic is that it stands for "git add push". 
 
-1. Stage all work in current repository (assuming you are in a submodule)
-2. Commit the work using the commit message
-3. Push to the remote repository
-4. Change directory to this repository root
-5. Stage, commit, and push the changes to this repository
-6. Restore the directory 
+The helper script `bin\gaps.bat <message>` combines 
+a `gap.bat` command to the subrepository
+that you are working on, and to the main repository as well.  
+The mnemonic is that it stands for "git add push submodule".
 
 It is recommended to add the `bin` folder of this repository to your path. 
 
