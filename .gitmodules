@@ -1,0 +1,3 @@
+[submodule "ara3d-template"]
+	path = ara3d-template
+	url = https://github.com/ara3d/ara3d-template
