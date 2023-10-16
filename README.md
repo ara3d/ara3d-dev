@@ -14,6 +14,9 @@ a `gap.bat` command to the subrepository
 that you are working on, and to the main repository as well.  
 The mnemonic is that it stands for "git add push submodule".
 
+The helper script `bin\gapa.bat <message>` calls `gap.bat <message>`
+for all submodules at once. 
+
 It is recommended to add the `bin` folder of this repository to your path. 
 
 ## Submodules

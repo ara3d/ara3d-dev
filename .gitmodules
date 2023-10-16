@@ -1,3 +1,6 @@
 [submodule "ara3d-template"]
 	path = submodules/ara3d-template
 	url = https://github.com/ara3d/ara3d-template
+[submodule "submodules/Ara3D.Collections"]
+	path = submodules/Ara3D.Collections
+	url = https://github.com/ara3d/Ara3D.Collections
