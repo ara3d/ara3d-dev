@@ -4,3 +4,6 @@
 [submodule "submodules/Ara3D.Collections"]
 	path = submodules/Ara3D.Collections
 	url = https://github.com/ara3d/Ara3D.Collections
+[submodule "submodules/Ara3D.Serialization.BFAST"]
+	path = submodules/Ara3D.Serialization.BFAST
+	url = https://github.com/ara3d/Ara3D.Serialization.BFAST
